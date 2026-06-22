@@ -3,5 +3,7 @@ resource "aws_instance" "aiit-vm" {
   instance_type = var.instance_type
   tags = {
     Name = var.instance_name
+    Env  = var.environment
   }
 }
+

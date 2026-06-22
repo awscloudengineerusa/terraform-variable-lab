@@ -9,3 +9,7 @@ variable "instance_type" {
 variable "instance_name" {
   description = "EC2 Name"
 }
+
+variable "environment" {
+  description = "Environment Name"
+}
